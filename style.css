@@ -34,7 +34,7 @@ body {
         url(./images/bg-pattern-top.svg),
         url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: top, bottom;
+    background-position: right 49vw bottom 45vh, left 48vw top 50vh;
     background-size: cover;
   
 }
@@ -51,7 +51,8 @@ hr {
     background-color: var(--white);
     display: flex;
     flex-direction: column;
-    width: 18rem;
+    width: 19.4rem;
+    height: 20.83rem;
 }
 
 .header-img {
@@ -60,8 +61,8 @@ hr {
 }
 .avatar-img {
     position: relative;
-    top: -2.2rem;
-    left: 7rem;
+    top: -2.5rem;
+    left: 40%;
     height: 25%;
     width: 25%;
     border-radius: 50%;
@@ -112,3 +113,4 @@ hr {
 
 .attribution { font-size: 11px; text-align: center; padding-top: 2rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
