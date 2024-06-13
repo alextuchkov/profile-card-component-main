@@ -21,6 +21,8 @@
     margin: 0;
 }
 
+
+
 body {
     font-family: var(--font-family);
     font-size: 18px;
@@ -34,10 +36,11 @@ body {
         url(./images/bg-pattern-top.svg),
         url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: right 49vw bottom 45vh, left 48vw top 50vh;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     background-size: cover;
-  
-}
+    
+    }
+    
 
 hr {
     
